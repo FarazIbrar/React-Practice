@@ -15,6 +15,7 @@ function App() {
           fName: value,
           lName: prevValue.lName
         };
+      
       } else if (name === "lName") {
         return {
           fName: prevValue.fName,
